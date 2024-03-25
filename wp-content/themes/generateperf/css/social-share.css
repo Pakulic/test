@@ -1,0 +1,141 @@
+.share-buttons-toggler + .social-share {
+  display: none;
+}
+
+.social-share {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  text-align: center;
+  contain: content;
+}
+
+@media (max-width: 568px) {
+  .social-share>.button>svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.social-share>.button {
+  color: var(--contrast-2);
+  flex: 33%;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: .9em;
+  padding: .75em !important;
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--base);
+}
+
+.button-twitter .icon {
+  fill: #1da1f2 !important;
+}
+
+.button-twitter:hover {
+  border-color: #1da1f2 !important;
+  color: #1da1f2 !important;
+}
+
+.button-x .icon {
+  fill: #000 !important;
+}
+
+.button-x:hover {
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+.button-facebook .icon {
+  fill: #1777f2 !important;
+}
+
+.button-facebook:hover {
+  border-color: #1777f2 !important;
+  color: #1777f2 !important;
+}
+
+.button-flipboard .icon {
+  fill: #f52828 !important;
+}
+
+.button-flipboard:hover {
+  border-color: #f52828 !important;
+  color: #f52828 !important;
+}
+
+.button-pinterest .icon {
+  fill: #e60023 !important;
+}
+
+.button-pinterest:hover {
+  border-color: #e60023 !important;
+  color: #e60023 !important;
+}
+
+.button-whatsapp .icon {
+  fill: #05cd51 !important;
+}
+
+.button-whatsapp:hover {
+  border-color: #05cd51 !important;
+  color: #05cd51 !important;
+}
+
+.button-reddit .icon {
+  fill: #ff4500 !important;
+}
+
+.button-reddit:hover {
+  border-color: #ff4500 !important;
+  color: #ff4500 !important;
+}
+
+.button-linkedin .icon {
+  fill: #0a66c2 !important;
+}
+
+.button-linkedin:hover {
+  border-color: #0a66c2 !important;
+  color: #0a66c2 !important;
+}
+
+.button-telegram .icon {
+  fill: #24a1de !important;
+}
+
+.button-telegram:hover {
+  border-color: #24a1de !important;
+  color: #24a1de !important;
+}
+
+.button-threads .icon {
+  fill: #000 !important;
+}
+
+.button-threads:hover {
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+.button-snapchat .icon {
+  fill: rgba(0, 0, 0, .9) !important;
+}
+
+.button-snapchat:hover {
+  border-color: #fffc00 !important;
+  color: rgba(0, 0, 0, .9) !important;
+}
+
+.button-copy-link .icon {
+  fill: var(--contrast) !important;
+}
+
+.button-copy-link:hover {
+  border-color: var(--contrast) !important;
+  color: var(--contrast) !important;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Centrale Sans-fallback";
+    size-adjust: 105.3%;
+    ascent-override: 85%;
+    src: local("Arial");
+}
+/* centrale-sans-regular - latin */
+@font-face {
+  font-family: 'Centrale Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/centrale-sans-latin-regular.woff2') format('woff2'),
+       url('../fonts/centrale-sans-latin-regular.woff') format('woff');
+}
+/* centrale-sans-700 - latin */
+@font-face {
+  font-family: 'Centrale Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/centrale-sans-latin-700.woff2') format('woff2'),
+       url('../fonts/centrale-sans-latin-700.woff') format('woff');
+}

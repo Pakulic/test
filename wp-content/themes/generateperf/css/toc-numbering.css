@@ -1,0 +1,102 @@
+.toc {
+  display: block;
+  margin: 1.5em 0;
+  background-color: var(--base-3);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--base);
+  contain: content;
+}
+
+.toc:not([open]) {
+  width: fit-content;
+}
+
+.toc:not([open]):hover {
+  border-color: var(--accent);
+}
+
+.toc:not([open]):hover summary {
+  color: var(--accent);
+}
+
+.toc summary {
+  padding: .75em;
+  color: var(--contrast-2);
+}
+
+.toc summary:hover {
+  cursor: pointer;
+}
+
+.toc[open] summary .hide,
+.toc summary .show {
+  display: inline;
+}
+
+.toc summary .hide,
+.toc[open] summary .show {
+  display: none;
+}
+
+.toc .title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--contrast-2);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.toc .title svg {
+  margin-right: 10px;
+  vertical-align: -0.1em;
+}
+
+.toc ul {
+  padding: 20px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.toc li {
+  counter-increment: chapters;
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+}
+
+.toc li + li {
+  border-top: 1px solid var(--base);
+  padding-top: .5em;
+  margin-top: .5em;
+}
+
+.toc a {
+  font-size: 16px;
+  text-wrap: balance;
+  font-weight: 500;
+  color: var(--contrast);
+}
+
+.toc li::before {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  content: counter(chapters);
+  background-color: var(--contrast);
+  color: var(--base-3);
+  border-radius: 50%;
+  transition: transform 100ms ease-in-out;
+  line-height: 36px;
+}
+
+.toc li:hover a {
+  color: var(--accent);
+}
+
+.toc li:hover::before {
+  transform: scale(1.1);
+  background-color: var(--accent);
+}

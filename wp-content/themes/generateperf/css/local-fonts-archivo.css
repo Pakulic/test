@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Archivo-fallback";
+    size-adjust: 98.44000000000005%;
+    ascent-override: 85%;
+    src: local("Arial");
+}
+@font-face {
+  font-family: Archivo;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/archivo-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/archivo-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/archivo-variable.woff2') format("woff2-variations");
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Core Sans-fallback";
+    size-adjust: 104.5%;
+    ascent-override: 90%;
+    src: local("Arial");
+}
+/* core-sans-a-regular - latin */
+@font-face {
+  font-family: 'Core Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Core Sans'),
+       local('Core Sans Regular'),
+       local('Core-Sans'),
+       local('Core-Sans-Regular'),
+       url('../fonts/core-sans-a-latin-regular.woff2') format('woff2'),
+       url('../fonts/core-sans-a-latin-regular.woff') format('woff');
+}
+/* core-sans-a-700 - latin */
+@font-face {
+  font-family: 'Core Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Core Sans Bold'),
+       local('Core-Sans-Bold'),
+       url('../fonts/core-sans-a-latin-700.woff2') format('woff2'),
+       url('../fonts/core-sans-a-latin-700.woff') format('woff');
+}

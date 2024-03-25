@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Red Hat Display-fallback";
+  size-adjust: 98.50%;
+  ascent-override: 110%;
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/red-hat-display-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/red-hat-display-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/red-hat-display-variable.woff2') format("woff2-variations");
+}

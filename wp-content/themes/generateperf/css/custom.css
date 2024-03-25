@@ -1,0 +1,62 @@
+/**
+ * Affichage de contenus à la Une sur 2 colonnes au lieu de 1/3 dans les blocs derniers articles Gutenberg
+ */
+
+@media(min-width: 600px) {
+  .featured-first li:first-child {
+    width: calc(66.66666% - .416665em) !important;
+  }
+  .featured-first li:nth-child(3n) {
+    margin-right: 1.25em !important;
+  }
+  .featured-first li:nth-child(3n+2) {
+    margin-right: 0 !important;
+  }
+}
+
+/**
+ * Grille responsive avec enfants de taille fixe
+ */
+
+  .elements-list {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill,minmax(70px, 1fr));
+    list-style: none;
+    margin: 0 0 2em;
+  }
+
+/**
+ * Éléments greffés avant et après le logo en position centrale
+ */
+
+@media(min-width: 768px) {
+  .header-aligned-center:not([class*=nav-float-]) .inside-header {
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/**
+ * Native "sliders"
+ */
+
+ @media (max-width: 1200px) {
+  .slider {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  .slider > div {
+    width: 1200px;
+  }
+  .slider {
+    margin-right: -25px;
+  }
+  .slider > div {
+    margin-right: 25px;
+  }
+}

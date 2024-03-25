@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Raleway-fallback";
+    size-adjust: 104.1%;
+    ascent-override: 87%;
+    src: local("Arial");
+}
+@font-face {
+  font-family: Raleway;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/raleway-variable.woff2') format(woff2) tech(variations) */,
+  url('../fonts/raleway-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/raleway-variable.woff2') format("woff2-variations");
+}

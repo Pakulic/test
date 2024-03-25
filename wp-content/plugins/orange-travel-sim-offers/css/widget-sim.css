@@ -1,0 +1,108 @@
+/*  Mise en forme général formulaires et label et bouton*/
+
+#sim-purchase-form.customize-unpreviewable, #sim-recharge-form.customize-unpreviewable{
+    cursor: auto !important;
+}
+
+.widget-sim-form .select, .widget-sim-form select, .widget-sim-form button, .widget-sim-form input {
+    cursor: pointer !important;
+}
+
+.widget-sim-form  {
+    display: flex;
+    flex-direction: column;
+  gap:1em;
+}
+.widget-sim-form label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.05rem;
+}
+.widget-sim-btn{
+  background-color: var(--contrast) !important;
+  color: var(--base-3) !important;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 23px;
+  border: 2px solid var(--contrast);
+}
+
+.widget-sim-btn:hover, .widget-sim-btn:active {
+  color: var(--contrast) !important;
+  background-color: var(--base-3) !important;
+}
+
+/*Achat de carte sim - bouton et champs de recherche*/
+#sim-purchase-form .selectHeader{
+  display: flex;
+  flex-direction: row;
+  width:100% !important;
+  border: 2px solid var(--contrast-3);
+}
+#sim-purchase-form #selectBtn{
+  width: 20% !important;
+  background-color:  var(--base-3) ;
+  padding: 0;
+}
+#sim-purchase-form #selectBtn .si-international{
+  font-size :1.2em !important;
+}
+#sim-purchase-form #selectBtn svg{
+  font-size :1em !important;
+}
+#sim-purchase-form #selectBtn:hover, #selectBtn:active, #selectBtn:focus{
+  border: 2px solid var(--contrast);
+  background-color:  var(--base-3) ;
+}
+#sim-purchase-form #searchform{
+  width: 80% !important;
+  height: 100% !important;
+  border-left: 2px solid var(--contrast-3);
+}
+#sim-purchase-form #countrieslist{
+  background-color:  var(--base-3) ;
+  width: 100%!important;
+  height: 100% !important;
+  border: 0;
+}
+/*Achat de carte sim - liste des résultats de recherche */
+#sim-purchase-form  .select-child {
+  border: 2px solid var(--contrast-3);
+  width :100%;
+  margin:0 ;
+  max-height: 10em;
+  min-height: max-content;
+  overflow-y: scroll;
+  scrollbar-color:var(--contrast-3);
+  scrollbar-width: thin;
+}
+/*Achat de carte sim - élement de la liste des résultats de recherche */
+#sim-purchase-form  .resultBTn{
+  background-color:  var(--base-3) ;
+  color: var(--contrast) ;
+  width :100% !important;
+  height :100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2% 4%;
+}
+#sim-purchase-form  .resultBTn:hover{
+  color:  var(--base-3) ;
+  background-color: var(--contrast) ;
+}
+#sim-purchase-form .resultBTn p {
+  margin-left: 2% !important;
+  margin-bottom: 0 !important;
+  font-size: 16px;
+}
+ .block {
+  display: block;
+}
+.none {
+  display: none;
+}

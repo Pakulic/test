@@ -1,0 +1,46 @@
+/**
+ * Copy section links
+ */
+
+h2[id^="toc-"],
+h3[id^="toc-"] {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+h2[id^="toc-"]::after,
+h3[id^="toc-"]::after {
+  content: "\1F517";
+  display: inline-block;
+  opacity: .33;
+  font-size: .75em;
+}
+
+@media(max-width: 1259px) {
+  h2[id^="toc-"]::after,
+  h3[id^="toc-"]::after {
+    line-height: 0;
+    margin-left: .5em;
+  }
+}
+
+@media(min-width: 1260px) {
+  h2[id^="toc-"]::after,
+  h3[id^="toc-"]::after {
+    position: absolute;
+    top: 0;
+    left: -1.4em;
+    width: 1.4em;
+  }
+}
+
+h2[id^="toc-"].copied::after,
+h3[id^="toc-"].copied::after {
+  content: "\2705";
+}
+ 
+h2[id^="toc-"]:hover::after,
+h3[id^="toc-"]:hover::after {
+  opacity: 1;
+}

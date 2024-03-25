@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Open Sans-fallback";
+    size-adjust: 105.50000000000003%;
+    ascent-override: 103%;
+    src: local("Arial");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/open-sans-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/open-sans-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/open-sans-variable.woff2') format("woff2-variations");
+}

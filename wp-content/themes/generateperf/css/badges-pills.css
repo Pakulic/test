@@ -1,0 +1,77 @@
+ul.pills {
+    list-style-type: none;
+    margin-left: 0;
+    counter-reset: pills-number;
+    line-height: 2.3em;
+}
+
+ul.pills li {
+    display: inline-block;
+    counter-increment: pills-number;
+}
+
+ul.pills a {
+    margin-right: 5px;
+    padding: 0.15em 0.66em;
+    border-radius: 2rem;
+    border: 2px solid rgba(255, 255, 255, .5);
+    text-transform: capitalize;
+    color: var(--base-3);
+}
+
+ul.pills a::before {
+    content: counter(pills-number) ".";
+    color: var(--darker);
+    margin-right: 0.25em;
+    font-weight: 500;
+}
+
+ul.pills a:hover {
+    border-color: var(--darker);
+}
+
+.badges-container {
+    margin-bottom: .5em;
+}
+
+.entry-header .post-categories,
+.entry-header .post-tags {
+    display: inline;
+    list-style-type: none;
+    margin: 0 0 .5em !important;
+}
+
+.entry-header .post-categories > li,
+.entry-header .post-tags > li {
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+.entry-header .post-categories > li > a,
+.entry-header .post-tags > li > a {
+    background-color: var(--base-3);
+    padding: .15em .66em;
+    margin-right: .66em;
+    border-radius: var(--border-radius);
+    border-width: 2px;
+    border-style: solid;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.entry-header .post-categories > li > a {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.entry-header .post-tags > li > a {
+    color: var(--contrast-2);
+    border-color: var(--contrast-2);
+}
+
+.entry-header .post-categories > li > a:hover,
+.entry-header .post-tags > li > a:hover {
+    background-color: var(--accent);
+    color: var(--base-3);
+    border-color: var(--accent);
+}

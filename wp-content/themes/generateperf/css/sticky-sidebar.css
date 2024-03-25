@@ -1,0 +1,7 @@
+@media(min-width: 768px) {
+    body.sticky-sidebar .inside-right-sidebar,
+    body.sticky-sidebar .inside-left-sidebar {
+      position: sticky;
+      top: 20px;
+    }
+}

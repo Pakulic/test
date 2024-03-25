@@ -1,0 +1,26 @@
+.related-article {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  margin-top: var(--spacer);
+  margin-bottom: var(--spacer);
+  border: 2px solid currentColor;
+  padding: 1em;
+  border-radius: var(--border-radius);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.related-article:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.related-article .label {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.related-article .title {
+  font-size: .9em;
+}

@@ -1,0 +1,14 @@
+.content-source p {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  text-align: right;
+}
+
+.content-source p,
+.content-source a {
+  color: var(--contrast-2);
+}
+
+.content-source a:hover {
+  text-decoration: underline;
+}

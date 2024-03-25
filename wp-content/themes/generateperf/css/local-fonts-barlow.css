@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Barlow-fallback";
+  size-adjust: 96.70000000000002%;
+  ascent-override: 96%;
+  src: local("Arial");
+}
+
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/barlow-v12-latin/barlow-v12-latin-regular.woff2') format('woff2'),
+       url('../fonts/barlow-v12-latin/barlow-v12-latin-regular.woff') format('woff');
+}

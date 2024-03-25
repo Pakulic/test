@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Lora-fallback";
+    size-adjust: 115.67999999999995%;
+    ascent-override: 83%;
+    src: local("Times New Roman");
+}
+@font-face {
+  font-family: Lora;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/lora-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/lora-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/lora-variable.woff2') format("woff2-variations");
+}

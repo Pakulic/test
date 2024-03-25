@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Readex Pro-fallback';
+  src: local(Arial);
+  size-adjust: 108%;
+  ascent-override: 92%;
+}
+@font-face {
+  font-family: "Readex Pro";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/readex-pro-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/readex-pro-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/readex-pro-variable.woff2') format("woff2-variations");
+}

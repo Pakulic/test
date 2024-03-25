@@ -1,0 +1,284 @@
+/*--------------------------------------------------------------
+# Global improvements over GeneratePress main.css
+--------------------------------------------------------------*/
+
+/**
+ * Set links backgroud to transparent in Chrome.
+ */
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/**
+ * Balance titles for better UI.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/**
+ * Add a cursor to logo since link is managed by JS.
+ */
+
+.site-branding-container {
+  cursor: pointer;
+}
+
+/**
+ * Display a rounded image on authors pages main title avatar.
+ */
+
+h1 img {
+  border-radius: 50%;
+  margin-right: .75em;
+}
+
+/**
+ * Center navigation and provide a generic class to center elements.
+ */
+
+.paging-navigation,
+.text-center {
+  text-align: center;
+}
+
+/**
+ * Correct a bad margin on featured images.
+ */
+
+.no-featured-image-padding .featured-image {
+  margin-left: 0 !important;
+}
+
+/**
+ * Add a top margin to right sidebar on desktop.
+ */
+
+@media(max-width: 768px) {
+  .sidebar {
+    margin-top: 40px;
+  }
+}
+
+/**
+ * Prevent useless repaints and reflows.
+ */
+
+.sidebar,
+.widget {
+  contain: layout style;
+}
+
+/**
+ * Prevent overflow-x out of screen.
+ */
+
+body .wp-block-search__label {
+  width: auto;
+}
+
+/**
+ * Beautiful Blockquotes.
+ */
+
+blockquote cite {
+  display: block;
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: var(--contrast-2);
+}
+
+/*--------------------------------------------------------------
+# Web performance optimization
+--------------------------------------------------------------*/
+
+/**
+ * Prevent image rendering when unnecessary.
+ */
+
+img[width][height] {
+  content-visibility: auto;
+}
+
+/**
+ * Prevent footer rendering on initial rendering.
+ */
+
+.site-footer {
+  content-visibility: auto;
+  contain-intrinsic-height: 400px;
+  contain-intrinsic-width: 100%;
+}
+
+@media(min-width: 768px) {
+  .site-footer {
+    contain-intrinsic-height: 300px;
+  }
+}
+
+/**
+ * Prevent sub-menu rendering while hidden.
+ */
+
+.main-navigation ul ul {
+  content-visibility: auto;
+}
+
+/**
+ * Optimize Google Ads inserts to prevent CLS.
+ */
+
+.site-content ins {
+  contain: content;
+  display: block;
+  height: 280px;
+  width: 100%;
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+/**
+ * Reduce CLS and layout changes with embeds
+ */
+
+.instagram-media,
+.twitter-tweet,
+.tiktok-embed {
+  contain: content;
+  min-height: 300px;
+}
+
+/*--------------------------------------------------------------
+# Specific to GeneratePerf
+--------------------------------------------------------------*/
+
+/**
+ * Components spacing.
+ */
+
+:root {
+  --spacing: 2rem;
+}
+
+.component {
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+/**
+ * Prevent vertical scroll when overlay is activated.
+ */
+
+body.overlayed {
+  overflow: hidden;
+  height: 100%;
+}
+
+/**
+ * Increase main area padding with right sidebar.
+ */
+
+@media(min-width: 769px) {
+  .one-container.right-sidebar .site-main,
+  .one-container.both-right .site-main {
+    margin-right: 60px;
+  }
+}
+
+/**
+ * Improve icons alignment.
+ */
+
+svg.icon {
+  vertical-align: top;
+}
+
+/**
+ * Mimic native <a> effect on hover.
+ */
+
+[data-goto]:hover,
+[data-share-url]:hover,
+[data-gpmodal-trigger]:hover,
+.gb-query-loop-item,
+[data-next-tab]:hover {
+  cursor: pointer;
+}
+
+[data-goto]:not(.button):not(.gb-button):hover {
+  text-decoration: underline;
+}
+
+/**
+ * Class used on some interface elements.
+ */
+
+.o50 {
+  opacity: 50%;
+}
+
+/**
+ * Top progress bar styling (option in GeneratePerf).
+ */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  max-width: 100%;
+  z-index: 99999;
+  height: 5px;
+}
+
+/**
+ * Subtitles styling (option in GeneratePerf).
+ */
+
+p[role="doc-subtitle"] {
+  margin-top: 1em;
+}
+
+/**
+ * Display featured image caption in articles (option in GeneratePerf).
+ */
+
+.featured-image {
+  margin-bottom: 0 !important;
+}
+
+.featured-image figcaption {
+  position: relative;
+  background-color: var(--base-2);
+  text-align: center;
+  color: var(--contrast-2);
+  padding: .5rem;
+  line-height: 1.4rem;
+  font-size: .9rem;
+}
+
+/**
+ * Add GeneratePerf border-radius option on interface elements.
+ */
+
+button:not(.gb-tabs__button),
+input,
+textarea {
+  border-radius: var(--border-radius) !important;
+}
+
+/**
+ * Add space to last posts not in grid mode
+ */
+
+.wp-block-latest-posts__list:not(.is-grid) li {
+  margin-bottom: 20px;
+}

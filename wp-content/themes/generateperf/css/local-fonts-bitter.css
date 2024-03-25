@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Bitter-fallback";
+  size-adjust: 114.49999999999997%;
+  ascent-override: 76%;
+  src: local("Times New Roman");
+}
+@font-face {
+  font-family: Bitter;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/bitter-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/bitter-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/bitter-variable.woff2') format("woff2-variations");
+}

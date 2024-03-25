@@ -1,0 +1,79 @@
+.cmp-toggler {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    right: 2em;
+    padding: .3em 1em;
+    background-color: var(--contrast-2);
+    color: var(--base-3);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    font-size: .9em;
+}
+
+@media(min-width: 768px) {
+    .cmp-toggler {
+        font-size: 1em;
+    }
+}
+
+.cmp-toggler:hover {
+    cursor: pointer;
+}
+
+.cmp-wrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.cmp {
+    margin: 0 auto;
+    width: 640px;
+    max-width: 100%;
+    background-color: var(--base-3);
+    border: 2px solid var(--contrast);
+    border-radius: var(--border-radius);
+    padding: 1.75em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmp h3 + p {
+    font-size: .9em;
+}
+
+.cmp p:last-child {
+    margin-bottom: 0;
+}
+
+.cmp button + button {
+    margin-left: 1em;
+}
+
+.cmp button[data-cmp-valid="false"] {
+    background-color: var(--base-3);
+    color: var(--contrast-2);
+}
+
+.cmp button[data-cmp-valid="false"]:hover {
+    text-decoration: underline;
+}
+
+.cmp button[data-cmp-valid="true"] {
+    background-color: var(--accent);
+}
+
+.cmp button[data-cmp-valid="true"]:hover {
+    background-color: var(--contrast);
+}

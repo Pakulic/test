@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Crimson Text-fallback";
+    size-adjust: 97.13%;
+    ascent-override: 119%;
+    src: local("Times New Roman");
+}
+/* crimson-text-regular - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/crimson-text-v19-latin-regular.woff2') format('woff2'),
+       url('../fonts/crimson-text-v19-latin-regular.woff') format('woff');
+}
+/* crimson-text-600 - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/crimson-text-v19-latin-600.woff2') format('woff2'),
+       url('../fonts/crimson-text-v19-latin-600.woff') format('woff');
+}
+/* crimson-text-700 - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/crimson-text-v19-latin-700.woff2') format('woff2'),
+       url('../fonts/crimson-text-v19-latin-700.woff') format('woff');
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Maven Pro-fallback";
+  size-adjust: 103.20000000000005%;
+  ascent-override: 92%;
+  src: local("Arial");
+}
+@font-face {
+  font-family: "Maven Pro";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/maven-pro-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/maven-pro-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/maven-pro-variable.woff2') format("woff2-variations");
+}

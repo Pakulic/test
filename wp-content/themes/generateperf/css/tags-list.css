@@ -1,0 +1,18 @@
+ul.tags_list_summary {
+  list-style-type: none;
+  margin: 0 0 var(--spacing) !important;
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.tags_list_summary a {
+  border-radius: var(--border-radius);
+}
+
+ul.tags_list_summary a,
+ul.tags_list_summary a:hover {
+  text-decoration-line: none !important;
+}

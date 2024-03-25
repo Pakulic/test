@@ -1,0 +1,134 @@
+/* Reset CSS listings Block news natif + GeneratePress */
+
+ul.wp-block-latest-posts__list {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 599px) {
+  ul.wp-block-latest-posts__list li {
+    margin-right: 0 !important;
+  }
+}
+
+.generate-columns-container article {
+  padding-bottom: 0 !important;
+}
+
+.generate-columns-container .inside-article .entry-header {
+  z-index: 2;
+}
+
+.wp-block-post,
+.generate-columns-container .inside-article,
+.wp-block-latest-posts__list li {
+  contain: content;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: var(--contrast);
+  padding: 1.25em;
+  border-radius: var(--border-radius);
+}
+
+.wp-block-post-featured-image,
+.wp-block-latest-posts__featured-image,
+.generate-columns-container .post-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.wp-block-post-featured-image img,
+.wp-block-latest-posts__featured-image img,
+.generate-columns-container .post-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  opacity: .8;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+@supports not (aspect-ratio: 1/1) {
+  .wp-block-post,
+  .generate-columns-container .inside-article,
+  .wp-block-latest-posts__list li {
+    position: relative;
+    padding-top: 100%;
+  }
+}
+
+@media (pointer: fine) {
+  .wp-block-post-featured-image img,
+  .wp-block-latest-posts__featured-image img,
+  .generate-columns-container .post-image img {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  li.wp-block-post:hover img,
+  .wp-block-latest-posts__list li:hover img,
+  .generate-columns-container article:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+li.wp-block-post:hover,
+.wp-block-latest-posts__list li:hover,
+.generate-columns-container article:hover {
+  cursor: pointer;
+}
+
+.generate-columns-container .entry-title {
+  font-family: inherit;
+  font-size: inherit !important;
+  font-weight: inherit;
+}
+
+.wp-block-post a,
+.wp-block-latest-posts__list a,
+.generate-columns-container .entry-title a {
+  z-index: 1;
+  text-wrap: balance;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.3rem !important;
+  line-height: 1.9rem;
+  font-weight: 700;
+  color: var(--base-3);
+}
+
+.wp-block-post a:hover,
+.wp-block-latest-posts__list a:hover,
+.generate-columns-container .entry-title a:hover {
+  color: inherit;
+}
+
+.wp-block-post:hover a,
+.wp-block-latest-posts__list li:hover a,
+.generate-columns-container .inside-article:hover .entry-title a {
+  color: var(--base-3) !important;
+}
+
+.wp-block-latest-posts__post-date,
+.wp-block-latest-posts__post-author,
+.generate-columns-container .entry-meta {
+  z-index: 1;
+  display: inline-block;
+  color: var(--base-3) !important;
+  font-size: .9rem !important;
+  margin-top: .75rem !important;
+  line-height: 1rem;
+}
+
+.wp-block-latest-posts__post-author+.wp-block-latest-posts__post-date {
+  margin-left: .33em;
+}
+
+.generate-columns-container .entry-summary {
+  display: none;
+}

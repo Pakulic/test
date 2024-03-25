@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Coda-fallback";
+  size-adjust: 99.80000000000001%;
+  ascent-override: 117%;
+  src: local("Arial");
+}
+
+/* coda-regular - latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/coda-v21-latin/coda-v21-latin-regular.woff2') format('woff2'),
+       url('../fonts/coda-v21-latin/coda-v21-latin-regular.woff') format('woff');
+}

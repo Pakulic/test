@@ -1,0 +1,85 @@
+:root {
+  --stars: #FAB703;
+}
+
+.stars-rater {
+  width: 320px;
+  margin: var(--spacing) auto;
+  text-align: center;
+  border: 2px solid var(--base);
+  border-radius: var(--border-radius);
+  padding: 1em;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 36px;
+  color: var(--contrast-3);
+}
+
+.star.active {
+  color: var(--stars);
+}
+
+.stars-rating,
+.stars-rater > h2,
+.vote-info {
+  margin-bottom: 0;
+}
+
+.stars-rating:hover .star {
+  color: var(--contrast) !important;
+}
+
+.stars-rating .star:hover ~ .star {
+  color: var(--contrast-3) !important;
+}
+
+.vote-info {
+  font-size: 1rem;
+  color: var(--contrast-2);
+}
+
+.star-container {
+  margin: 1em 0;
+}
+
+.star-position {
+  display: inline-block;
+}
+
+.star-rating {
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+  flex-direction: row-reverse !important;
+  font-size: 1.5em;
+  justify-content: space-around;
+  padding: 0 .2em;
+  width: 6em;
+}
+
+.star-rating input {
+  display: none !important;
+}
+
+.star-not-rated,
+.star-rating label {
+  color: var(--contrast-3);
+  font-style: normal;
+}
+
+.star-rating label:hover {
+  cursor: pointer;
+}
+
+.star-rating :checked~label,
+.star-rated {
+  color: var(--stars);
+  font-style: normal;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+  color: var(--contrast);
+}

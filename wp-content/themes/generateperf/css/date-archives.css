@@ -1,0 +1,22 @@
+.archive-selector {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: var(--spacing);
+    align-items: center;
+}
+
+.archive-selector .button {
+    border-radius: var(--border-radius);
+    font-size: .9rem;
+}
+
+.archive-selector .button.current {
+    background-color: var(--base);
+}
+
+.archive-selector h3 {
+    margin-bottom: 0;
+}

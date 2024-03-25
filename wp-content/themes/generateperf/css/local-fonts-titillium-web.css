@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Titillium Web-fallback";
+    size-adjust: 94.88%;
+    ascent-override: 140%;
+    src: local("Arial");
+}
+/* titillium-web-300 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/titillium-web-v15-latin-300.woff2') format('woff2'),
+       url('../fonts/titillium-web-v15-latin-300.woff') format('woff');
+}
+/* titillium-web-regular - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/titillium-web-v15-latin-regular.woff2') format('woff2'),
+       url('../fonts/titillium-web-v15-latin-regular.woff') format('woff');
+}
+/* titillium-web-600 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/titillium-web-v15-latin-600.woff2') format('woff2'),
+       url('../fonts/titillium-web-v15-latin-600.woff') format('woff');
+}
+/* titillium-web-700 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/titillium-web-v15-latin-700.woff2') format('woff2'),
+       url('../fonts/titillium-web-v15-latin-700.woff') format('woff');
+}

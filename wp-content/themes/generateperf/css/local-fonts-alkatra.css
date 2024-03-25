@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Alkatra;
+  font-weight: 400 700;
+  font-display: swap;
+  src: /* url('../fonts/alkatra-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/alkatra-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/alkatra-variable.woff2') format("woff2-variations");
+}

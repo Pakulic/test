@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "PT Serif-fallback";
+    size-adjust: 110.50000000000003%;
+    ascent-override: 94%;
+    src: local("Times New Roman");
+}
+/* pt-serif-regular - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/pt-serif-v17-latin-regular.woff2') format('woff2'),
+       url('../fonts/pt-serif-v17-latin-regular.woff') format('woff');
+}
+/* pt-serif-700 - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/pt-serif-v17-latin-700.woff2') format('woff2'),
+       url('../fonts/pt-serif-v17-latin-700.woff') format('woff');
+}

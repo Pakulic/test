@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Jost-fallback";
+    size-adjust: 95.32000000000005%;
+    ascent-override: 130%;
+    src: local("Arial");
+}
+@font-face {
+  font-family: Jost;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/jost-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/jost-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/jost-variable.woff2') format("woff2-variations");
+}

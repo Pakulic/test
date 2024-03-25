@@ -1,0 +1,19 @@
+.splitted-list[data-columns] {
+  margin-bottom: 2.5em !important;
+  column-count: 2;
+  column-gap: 20px;
+  margin-left: 1em;
+}
+
+@media(min-width: 768px) {
+  .splitted-list[data-columns="3"],
+  .splitted-list[data-columns="4"] {
+    column-count: 3;
+  }
+}
+
+@media(min-width: 1024px) {
+  .splitted-list[data-columns="4"] {
+    column-count: 4;
+  }
+}

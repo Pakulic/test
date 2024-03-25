@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Questrial-fallback";
+    size-adjust: 99.56%;
+    ascent-override: 73%;
+    src: local("Arial");
+}
+/* questrial-regular - latin */
+@font-face {
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/questrial-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/questrial-v18-latin-regular.woff') format('woff');
+}

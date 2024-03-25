@@ -1,0 +1,1032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneratePerf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-08 06:59+0000\n"
+"PO-Revision-Date: 2023-10-12 06:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1\n"
+"X-Domain: generateperf"
+
+#: inc/functions-layout.php:765
+#, php-format
+msgid "%1$s’s profile on %2$s"
+msgstr "Profil de %1$s sur %2$s"
+
+#: inc/functions-layout.php:90
+#, php-format
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#: inc/functions-admin.php:546 inc/functions-views.php:54
+#, php-format
+msgid "%s consultations"
+msgstr "%s consultations"
+
+#: inc/functions-seo.php:296
+#, php-format
+msgid ""
+"%s is an independent media. Support us by adding us to your Google News "
+"favorites:"
+msgstr ""
+"%s est un média indépendant. Soutenez-nous en nous ajoutant à vos favoris "
+"Google Actualités :"
+
+#: inc/functions-admin.php:547 inc/functions-views.php:55
+#, php-format
+msgid "%s views"
+msgstr "%s vues"
+
+#: inc/functions-admin.php:549 inc/functions-views.php:57
+#, php-format
+msgid "%s visits"
+msgstr "%s visites"
+
+#: inc/functions-admin.php:550 inc/functions-views.php:58
+#, php-format
+msgid "%s visualizations"
+msgstr "%s visualisations"
+
+#: inc/functions-admin.php:262
+msgid "3rd party tools"
+msgstr "Outils tiers"
+
+#: inc/functions-layout.php:801 inc/functions-admin.php:1076
+#, php-format
+msgid "About the author, %s"
+msgstr "À propos de l'auteur, %s"
+
+#: inc/functions-admin.php:732
+msgid "Above content"
+msgstr "Au-dessus des contenus"
+
+#: inc/functions-layout.php:703 inc/functions-admin.php:766
+msgid "abstract"
+msgstr "le résumé"
+
+#: inc/functions-seo.php:95
+#, php-format
+msgid ""
+"Access all articles published on %s by selecting the date of your choice:"
+msgstr ""
+"Accédez à tous les articles publiés sur %s en sélectionnant la date de votre "
+"choix :"
+
+#: inc/functions-layout.php:966
+msgid "Add a source"
+msgstr "Ajouter une source"
+
+#: inc/functions-admin.php:749
+msgid "Add copy links to titles"
+msgstr "Ajouter la copie des liens aux titres"
+
+#: inc/functions-layout.php:845 inc/functions-admin.php:638
+msgid "Added on"
+msgstr "Ajouté le"
+
+#: inc/functions-admin.php:810 inc/functions-admin.php:999
+msgid "After content"
+msgstr "Après les contenus"
+
+#. Author of the theme
+msgid "Agence Web Performance"
+msgstr "Agence Web Performance"
+
+#: inc/functions-seo.php:94
+msgid "All our publications"
+msgstr "Retrouvez l’ensemble de nos publications"
+
+#: inc/functions-layout.php:391 inc/functions-layout.php:515
+#: inc/functions-admin.php:866
+msgid "Also published"
+msgstr "Aussi publié"
+
+#: inc/functions-admin.php:1191
+#| msgid "Analytics, Ads and other JavaScript tags"
+msgid "Analytics, Ads &amp; other JavaScript tags"
+msgstr "Analytics, publicités &amp; autres tags JavaScript"
+
+#: inc/functions-seo.php:16 inc/functions-seo.php:31
+#, php-format
+msgid "Archives for %s"
+msgstr "Archives pour %s"
+
+#: inc/functions-layout.php:1090 inc/functions-admin.php:593
+msgid "Article length"
+msgstr "Longueur de l’article"
+
+#: inc/functions-layout.php:110 inc/functions-layout.php:879
+#: inc/functions-layout.php:882
+msgid "at"
+msgstr "à"
+
+#: inc/functions-seo.php:559 inc/functions-admin.php:1044
+msgid "Authored by"
+msgstr "Préparé par"
+
+#: inc/functions-admin.php:226
+msgid "Authors"
+msgstr "Auteurs"
+
+#: inc/functions-admin.php:1262
+msgid "Automatic silos on Primary menu"
+msgstr "Silos automatiques sur la navigation principale"
+
+#: inc/functions-seo.php:503 inc/functions-seo.php:522
+#: inc/functions-seo.php:541
+msgid "Back to home page"
+msgstr "Retour à l’accueil"
+
+#: inc/functions-ratings.php:126
+msgid "based on"
+msgstr "basé sur"
+
+#: inc/functions-ratings.php:131
+#, php-format
+#| msgid "Be the first to rate this content"
+msgid "Be the first to rate this %s"
+msgstr "Soyez le 1<sup>er</sup> à noter cet(te) %s"
+
+#: inc/functions-admin.php:998
+msgid "Before content"
+msgstr "Avant les contenus"
+
+#: inc/functions-admin.php:897
+msgid "Captcha provider"
+msgstr "Fournisseur de Captcha"
+
+#: inc/functions-admin.php:919
+msgid "Captcha Public key"
+msgstr "Clé Publique du Captcha"
+
+#: inc/functions-admin.php:930
+msgid "Captcha Secret/Private key"
+msgstr "Clé Privée/Secrète du Captcha"
+
+#: inc/functions-admin.php:713
+msgid "Classic"
+msgstr "Classique"
+
+#: inc/functions-comments.php:60
+msgid "comments"
+msgstr "commentaires"
+
+#: inc/functions-admin.php:216
+msgid "Comments &amp; Reviews"
+msgstr "Commentaires &amp; avis"
+
+#: inc/functions-seo.php:558 inc/functions-admin.php:1043
+msgid "Composed by"
+msgstr "Rédigé par"
+
+#: inc/functions-admin.php:791
+msgid "Conceal"
+msgstr "Dissimuler"
+
+#: inc/functions-layout.php:697
+#, php-format
+msgid "conceal %s"
+msgstr "dissimuler %s"
+
+#: inc/functions-seo.php:562 inc/functions-admin.php:1047
+msgid "Conceived by"
+msgstr "Conçu par"
+
+#: inc/functions-admin.php:236
+msgid "Consent"
+msgstr "Consentement"
+
+#: inc/functions-admin.php:221
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: inc/functions-seo.php:129
+#, php-format
+msgid "Content published in %s"
+msgstr "Les contenus publiés en %s"
+
+#: inc/functions-layout.php:605 inc/functions-layout.php:606
+msgid "Copy"
+msgstr "Copier"
+
+#: inc/functions-layout.php:860 inc/functions-admin.php:678
+msgid "Corrected on"
+msgstr "Corrigé le"
+
+#: inc/functions-admin.php:788
+msgid "Cover up"
+msgstr "Masquer"
+
+#: inc/functions-layout.php:694
+#, php-format
+msgid "cover up %s"
+msgstr "masquer %s"
+
+#: inc/functions-seo.php:560 inc/functions-admin.php:1045
+msgid "Crafted by"
+msgstr "Façonné par"
+
+#: inc/functions-layout.php:395 inc/functions-admin.php:870
+msgid "Currently"
+msgstr "En ce moment"
+
+#: inc/functions-users.php:24
+msgid "Custom avatar"
+msgstr "Avatar personnalisé"
+
+#: inc/functions-admin.php:242
+msgid "Custom code"
+msgstr "Code personnalisé"
+
+#: inc/functions-users.php:153
+msgid "Custom fields"
+msgstr "Champs personnalisés"
+
+#: inc/functions-admin.php:790
+msgid "Deploy"
+msgstr "Déployer"
+
+#: inc/functions-admin.php:272
+msgid "Design"
+msgstr "Mise en page"
+
+#: inc/functions-layout.php:804 inc/functions-admin.php:1079
+#, php-format
+msgid "Discover the author, %s"
+msgstr "Découvrez l’auteur, %s"
+
+#: inc/functions-layout.php:770
+#, php-format
+msgid "Discuss on WhatsApp with %1$s"
+msgstr "Discuter sur WhatsApp avec %1$s"
+
+#: inc/functions-admin.php:788
+msgid "Display"
+msgstr "Afficher"
+
+#: inc/functions-layout.php:686
+#, php-format
+msgid "display %s"
+msgstr "afficher %s"
+
+#: inc/functions-admin.php:548 inc/functions-views.php:56
+#, php-format
+msgid "displayed %s times"
+msgstr "%s affichages"
+
+#: inc/functions-admin.php:1039
+msgid "Displayed writing action"
+msgstr "Action d'écriture affichée"
+
+#: inc/functions-admin.php:845
+msgid "Dynamic (taxonomy)"
+msgstr "Dynamique (taxonomies)"
+
+#: inc/functions-layout.php:856 inc/functions-admin.php:674
+msgid "Edited on"
+msgstr "Édité le"
+
+#: inc/functions-admin.php:984
+msgid "Enable native sharing"
+msgstr "Activer le partage natif"
+
+#: functions.php:240
+msgid "Error during voting"
+msgstr "Erreur lors du vote"
+
+#: inc/functions-layout.php:1089 inc/functions-admin.php:592
+msgid "Estimated length"
+msgstr "Estimation de la durée"
+
+#: inc/functions-layout.php:866 inc/functions-admin.php:684
+msgid "Fact checked on"
+msgstr "Fact-checké le"
+
+#: inc/functions-comments.php:64
+msgid "feedbacks"
+msgstr "remarques"
+
+#: inc/functions-admin.php:790
+msgid "Fold up"
+msgstr "Replier"
+
+#: inc/functions-layout.php:696
+#, php-format
+msgid "fold up %s"
+msgstr "replier %s"
+
+#: inc/functions-seo.php:298
+msgid "Follow us on Google News"
+msgstr "Suivez-nous sur Google News"
+
+#: inc/functions-admin.php:1339
+msgid "Generate a News Sitemap"
+msgstr "Générer un sitemap News"
+
+#. Name of the theme
+#: inc/functions-admin.php:364
+msgid "GeneratePerf"
+msgstr "GeneratePerf"
+
+#: inc/functions-admin.php:363
+msgid "GeneratePerf Settings"
+msgstr "Réglages de GeneratePerf"
+
+#. Description of the theme
+msgid ""
+"GeneratePress high-quality unofficial child theme optimized for web "
+"performance and SEO. Includes advanced functionalities that do not impact "
+"loading times and improve website architecture. Runs with less than 12 kB of "
+"CSS and no jQuery. Any copy or reuse is strictly forbidden without the "
+"express consent of Agence Web Performance."
+msgstr ""
+"Thème enfant non officiel de haute qualité pour GeneratePress, optimisé pour "
+"la web performance et le SEO. Intègre des fonctionnalités avancées qui "
+"n'impactent pas les temps de chargement et améliorent l'architecture. "
+"Fonctionne avec moins de 12 ko de CSS et sans jQuery. Toute copie ou "
+"réutilisation est strictement interdite sans l'autorisation expresse de "
+"l'Agence Web Performance."
+
+#: inc/functions-ratings.php:115
+msgid "Give your feedback"
+msgstr "Donnez votre avis"
+
+#: inc/functions-admin.php:902
+msgid "Hcaptcha"
+msgstr "Hcaptcha"
+
+#: inc/functions-admin.php:786
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/functions-layout.php:692
+#, php-format
+msgid "hide %s"
+msgstr "cacher %s"
+
+#: inc/functions-seo.php:88
+#, php-format
+msgid ""
+"However, other themes have been <strong>addressed on %s</strong>, such as %s."
+msgstr ""
+"D’autres thématiques ont toutefois été <strong>abordées sur %s</strong>, "
+"comme %s."
+
+#. Author URI of the theme
+msgid "https://agencewebperformance.fr/"
+msgstr "https://agencewebperformance.fr/"
+
+#. URI of the theme
+msgid "https://agencewebperformance.fr/prestations/creation-site-performant/"
+msgstr "https://agencewebperformance.fr/prestations/creation-site-performant/"
+
+#: inc/functions-layout.php:382
+#, php-format
+#| msgid "in “%1$”"
+msgid "in “%1$s”"
+msgstr "dans « %1$s »"
+
+#: inc/functions-layout.php:702 inc/functions-admin.php:765
+msgid "index"
+msgstr "l’index"
+
+#: inc/functions-layout.php:802 inc/functions-admin.php:1077
+#, php-format
+msgid "Information on the author, %s"
+msgstr "Informations sur l'auteur, %s"
+
+#: inc/functions-admin.php:809
+msgid "Inside content"
+msgstr "Dans les contenus"
+
+#: inc/functions-admin.php:811
+msgid "Inside sidebar"
+msgstr "Dans la sidebar"
+
+#: inc/functions-layout.php:846 inc/functions-admin.php:639
+msgid "Issued on"
+msgstr "Émis le"
+
+#: inc/functions-layout.php:1091 inc/functions-admin.php:594
+msgid "It will take you"
+msgstr "Cela vous prendra"
+
+#: inc/functions-layout.php:861 inc/functions-admin.php:679
+msgid "Last correction on"
+msgstr "Dernière correction le"
+
+#: inc/functions-layout.php:857 inc/functions-admin.php:675
+msgid "Last edition on"
+msgstr "Dernière édition le"
+
+#: inc/functions-layout.php:855 inc/functions-admin.php:673
+msgid "Last modification on"
+msgstr "Dernière modification le"
+
+#: inc/functions-layout.php:84
+msgid "Last month"
+msgstr "Le mois dernier"
+
+#: inc/functions-layout.php:865 inc/functions-admin.php:683
+msgid "Last review on"
+msgstr "Dernier contrôle le"
+
+#: inc/functions-layout.php:863 inc/functions-admin.php:681
+msgid "Last revision on"
+msgstr "Dernière révision le"
+
+#: inc/functions-layout.php:859 inc/functions-admin.php:677
+msgid "Last update on"
+msgstr "Dernière mise à jour le"
+
+#: inc/functions-layout.php:81
+msgid "Last week"
+msgstr "La semaine dernière"
+
+#: inc/functions-layout.php:87
+msgid "Last year"
+msgstr "L’année dernière"
+
+#: inc/functions-layout.php:806 inc/functions-admin.php:1081
+#, php-format
+msgid "Learn about %s, the author"
+msgstr "En savoir plus sur %s, l’auteur"
+
+#: inc/functions-layout.php:651
+#, php-format
+msgid "Like this %s? Share it!"
+msgstr "Vous aimez cet(te) %s ? Partagez !"
+
+#: functions.php:246
+msgid "Link copied!"
+msgstr "Lien copié !"
+
+#: inc/functions-admin.php:1180
+msgid "Meta tags, Resource hints &amp; CMP scripts"
+msgstr "Meta tags, Resource hints &amp; scripts de la CMP"
+
+#: inc/functions-layout.php:1094
+msgid "minutes"
+msgstr "minutes"
+
+#: inc/functions-layout.php:854 inc/functions-admin.php:672
+msgid "Modified on"
+msgstr "Modifié le"
+
+#: inc/functions-seo.php:431
+#, php-format
+#| msgid "More information on “%1$”"
+msgid "More information on “%1$s”"
+msgstr "Plus d’informations sur « %1$s »"
+
+#: inc/functions-admin.php:257
+msgid "News"
+msgstr "Actualités"
+
+#: inc/functions-shortcodes.php:55 inc/functions-shortcodes.php:71
+msgid "No tags to display"
+msgstr "Aucun tag à afficher"
+
+#: inc/functions-admin.php:900 inc/functions-admin.php:944
+msgid "None"
+msgstr "Aucun"
+
+#: inc/functions-layout.php:450
+msgid "Not to be missed"
+msgstr "À ne pas manquer"
+
+#: inc/functions-admin.php:714
+msgid "Numbering"
+msgstr "Numérotation"
+
+#: inc/functions-comments.php:63
+msgid "observations"
+msgstr "observations"
+
+#: inc/functions-admin.php:789
+msgid "Occult"
+msgstr "Occulter"
+
+#: inc/functions-layout.php:695
+#, php-format
+msgid "occult %s"
+msgstr "occulter %s"
+
+#: inc/functions-layout.php:561 inc/functions-layout.php:565
+#: inc/functions-layout.php:569 inc/functions-layout.php:573
+#: inc/functions-layout.php:577 inc/functions-layout.php:581
+#: inc/functions-layout.php:585 inc/functions-layout.php:589
+#: inc/functions-layout.php:593 inc/functions-layout.php:597
+msgid "on"
+msgstr "sur"
+
+#: inc/functions-comments.php:78
+#, php-format
+msgid "On %s"
+msgstr "Le %s"
+
+#: inc/functions-comments.php:59
+msgid "opinions"
+msgstr "avis"
+
+#: inc/functions-ratings.php:135
+msgid "or <a href=\"#comments\">leave a detailed review</a>"
+msgstr "ou bien <a href=\"#comments\">laissez un avis détaillé</a>"
+
+#: inc/functions-layout.php:389 inc/functions-layout.php:513
+#: inc/functions-admin.php:864
+msgid "Other articles"
+msgstr "Autres articles"
+
+#: inc/functions-layout.php:392 inc/functions-layout.php:516
+#: inc/functions-admin.php:867
+msgid "Other publications"
+msgstr "Autres publications"
+
+#: inc/functions-admin.php:15
+msgid "Patterns"
+msgstr "Compositions"
+
+#: inc/functions-users.php:157
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/functions-users.php:161
+msgid "Phone number with international indicator"
+msgstr "Numéro de téléphone avec indicatif international"
+
+#: inc/functions-admin.php:995
+msgid "Position"
+msgstr "Position"
+
+#: inc/functions-comments.php:32 inc/functions-admin.php:490
+msgid "Post a comment"
+msgstr "Publiez un commentaire"
+
+#: inc/functions-comments.php:47
+msgid "Post my comment"
+msgstr "Publier mon commentaire"
+
+#: inc/functions-admin.php:941
+msgid "Post subtitles"
+msgstr "Sous-titres des publications"
+
+#: inc/functions-layout.php:844 inc/functions-admin.php:637
+msgid "Posted on"
+msgstr "Mis en ligne le"
+
+#: inc/functions-layout.php:850 inc/functions-admin.php:643
+msgid "Press release from"
+msgstr "Communiqué du"
+
+#: inc/functions-layout.php:393 inc/functions-admin.php:868
+msgid "Previous publications"
+msgstr "Publications précédentes"
+
+#: inc/functions-users.php:27 inc/functions-users.php:127
+msgid "Profile picture"
+msgstr "Image de Profil"
+
+#: inc/functions-admin.php:176
+msgid "Publication dates"
+msgstr "Dates de publication"
+
+#: inc/functions-layout.php:849 inc/functions-admin.php:642
+msgid "Publicized on"
+msgstr "Diffusé le"
+
+#: inc/functions-comments.php:46
+msgid "Publish my opinion"
+msgstr "Publier mon avis"
+
+#: inc/functions-layout.php:843 inc/functions-admin.php:636
+msgid "Published on"
+msgstr "Publié le"
+
+#: inc/functions-ratings.php:188
+msgid "Rate:"
+msgstr "Noter :"
+
+#: inc/functions-ratings.php:152
+#, php-format
+msgid "Rated %1$d/5"
+msgstr "Noté %1$d/5"
+
+#: inc/functions-ratings.php:127
+msgid "rating"
+msgstr "vote"
+
+#: inc/functions-ratings.php:127
+msgid "ratings"
+msgstr "votes"
+
+#: inc/functions-comments.php:33 inc/functions-admin.php:491
+msgid "React to this article"
+msgstr "Réagissez à cet article"
+
+#: inc/functions-comments.php:61
+msgid "reactions"
+msgstr "réactions"
+
+#: inc/functions-admin.php:545 inc/functions-views.php:53
+#, php-format
+msgid "read %s times"
+msgstr "%s lectures"
+
+#: inc/functions-layout.php:1087 inc/functions-admin.php:590
+msgid "Reading duration"
+msgstr "Durée de lecture"
+
+#: inc/functions-layout.php:1088 inc/functions-admin.php:201
+#: inc/functions-admin.php:591
+msgid "Reading time"
+msgstr "Temps de lecture"
+
+#: inc/functions-admin.php:901
+msgid "ReCaptcha (Google)"
+msgstr "ReCaptcha (Google)"
+
+#: inc/functions-admin.php:206
+msgid "Related content"
+msgstr "Contenus relatifs"
+
+#: inc/functions-layout.php:390 inc/functions-layout.php:514
+#: inc/functions-admin.php:865
+msgid "Related topics"
+msgstr "Sujets relatifs"
+
+#: inc/functions-layout.php:847 inc/functions-admin.php:640
+msgid "Released on"
+msgstr "Paru le"
+
+#: inc/functions-users.php:32
+msgid "Remove"
+msgstr "Supprimer"
+
+#: inc/functions-comments.php:62
+msgid "replies"
+msgstr "réponses"
+
+#: inc/functions-comments.php:34 inc/functions-comments.php:49
+#: inc/functions-admin.php:492
+msgid "Reply to this article"
+msgstr "Répondez à cet article"
+
+#: inc/functions-admin.php:791
+msgid "Reveal"
+msgstr "Révéler"
+
+#: inc/functions-layout.php:689
+#, php-format
+msgid "reveal %s"
+msgstr "révéler %s"
+
+#: inc/functions-layout.php:864 inc/functions-admin.php:682
+msgid "Reviewed on"
+msgstr "Contrôlé le"
+
+#: inc/functions-layout.php:862 inc/functions-admin.php:680
+msgid "Revised on"
+msgstr "Révisé le"
+
+#: inc/functions-seo.php:503
+msgid "RSS comment feeds are deactivated."
+msgstr "Les flux RSS des commentaires sont désactivés."
+
+#: inc/functions-seo.php:522
+msgid "RSS search feeds are deactivated"
+msgstr "Les flux RSS de la recherche sont désactivés."
+
+#: inc/functions-seo.php:561 inc/functions-admin.php:1046
+msgid "Scribed by"
+msgstr "Élaboré par"
+
+#: inc/functions-admin.php:231
+msgid "Search"
+msgstr "Recherche"
+
+#: inc/functions-layout.php:704 inc/functions-admin.php:767
+msgid "sections"
+msgstr "les sections"
+
+#: inc/functions-admin.php:787
+msgid "See"
+msgstr "Voir"
+
+#: inc/functions-layout.php:685
+#, php-format
+msgid "see %s"
+msgstr "voir %s"
+
+#: inc/functions-layout.php:388 inc/functions-layout.php:512
+#: inc/functions-seo.php:361 inc/functions-admin.php:863
+msgid "See also"
+msgstr "À voir aussi"
+
+#: inc/functions-seo.php:116
+msgid "Select a month:"
+msgstr "Choisir un mois :"
+
+#: inc/functions-seo.php:101
+msgid "Select a year:"
+msgstr "Choisir une année :"
+
+#: inc/functions-users.php:29 inc/functions-users.php:47
+msgid "Select an image"
+msgstr "Sélectionner une image"
+
+#: inc/functions-shortcodes.php:246 inc/functions-layout.php:601
+msgid "Send"
+msgstr "Envoyer"
+
+#: inc/functions-admin.php:252
+msgid "SEO"
+msgstr "SEO"
+
+#: inc/functions-layout.php:569 inc/functions-layout.php:581
+#: inc/functions-layout.php:585 inc/functions-layout.php:589
+#: inc/functions-layout.php:593
+msgid "Share"
+msgstr "Partager"
+
+#: inc/functions-comments.php:35 inc/functions-admin.php:493
+msgid "Share an observation"
+msgstr "Partagez une observation"
+
+#: inc/functions-comments.php:51
+msgid "Share my feedback"
+msgstr "Partagez vos remarques"
+
+#: inc/functions-comments.php:50
+msgid "Share my observation"
+msgstr "Partager mon observation"
+
+#: inc/functions-comments.php:48
+msgid "Share my reaction"
+msgstr "Partager ma réaction"
+
+#: inc/functions-layout.php:657
+#, php-format
+msgid "Share this %s"
+msgstr "Partager cet(te) %s"
+
+#: inc/functions-comments.php:36 inc/functions-admin.php:494
+msgid "Share your feedback"
+msgstr "Partagez vos remarques"
+
+#: inc/functions-comments.php:31 inc/functions-admin.php:489
+msgid "Share your opinion"
+msgstr "Partagez votre avis"
+
+#: inc/functions-admin.php:786
+msgid "Show"
+msgstr "Montrer"
+
+#: inc/functions-layout.php:684
+#, php-format
+msgid "show %s"
+msgstr "montrer %s"
+
+#: inc/functions-admin.php:734
+msgid "Sidebar top"
+msgstr "Haut de la sidebar"
+
+#: inc/functions-shortcodes.php:23
+msgid "Site archives"
+msgstr "Archives du site"
+
+#: inc/functions-layout.php:774
+msgid "Social medias:"
+msgstr "Réseaux sociaux :"
+
+#: inc/functions-admin.php:211
+msgid "Social Share"
+msgstr "Partage social"
+
+#: inc/functions-security.php:13
+msgid "Something went wrong!"
+msgstr "Quelque chose s’est mal passé !"
+
+#: inc/functions-layout.php:961 inc/functions-layout.php:990
+#| msgid "Source:"
+msgid "Source"
+msgstr "Source"
+
+#: inc/functions-layout.php:952 inc/functions-admin.php:186
+msgid "Sources"
+msgstr "Sources"
+
+#: inc/functions-admin.php:1680
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: inc/functions-admin.php:181
+msgid "Subtitles"
+msgstr "Sous-titres"
+
+#: inc/functions-admin.php:191
+msgid "Summary"
+msgstr "Sommaire"
+
+#: inc/functions-layout.php:700 inc/functions-admin.php:763
+msgid "summary"
+msgstr "le sommaire"
+
+#: inc/functions-admin.php:729
+msgid "Summary placement"
+msgstr "Placement du sommaire"
+
+#: inc/functions-admin.php:710
+msgid "Summary style"
+msgstr "Style du sommaire"
+
+#: inc/functions-admin.php:1642
+msgid "SVG icon"
+msgstr "Icône SVG"
+
+#: inc/functions-layout.php:701 inc/functions-admin.php:764
+msgid "table of content"
+msgstr "la table des matières"
+
+#: inc/functions-seo.php:86
+#, php-format
+msgid "That month <strong>the most popular topics</strong> were %s."
+msgstr "Ce mois-là <strong>les sujets les plus populaires</strong> étaient %s."
+
+#: inc/functions-admin.php:1644
+msgid "The icon will be displayed before labels in the menu"
+msgstr "L’icône sera affichée avant les titres dans le menu"
+
+#: inc/functions-layout.php:605 inc/functions-layout.php:606
+msgid "the link"
+msgstr "le lien"
+
+#: inc/functions-admin.php:1342
+msgid ""
+"The news sitemap will be available at the url <code>/sitemap-news.xml</code>."
+msgstr ""
+"Le sitemap d’actualités sera disponible via l'url <code>/sitemap-news."
+"xml</code>."
+
+#: blocks/faq/faq.php:25
+msgid "There are no questions in this FAQ block at this time."
+msgstr "Ce bloc de FAQ ne comprend aucune question pour le moment."
+
+#: inc/functions-i18n.php:25
+msgid "This article is also available in:"
+msgstr "Cet article est aussi disponible en :"
+
+#: inc/functions-layout.php:803 inc/functions-admin.php:1078
+#, php-format
+msgid "This content was written by %s"
+msgstr "Ce contenu a été rédigé par %s"
+
+#: inc/functions-layout.php:1092 inc/functions-admin.php:595
+msgid "This reading lasts"
+msgstr "Cette lecture dure"
+
+#: inc/functions-layout.php:601
+msgid "through"
+msgstr "via"
+
+#: inc/functions-admin.php:946
+msgid "Through ACF (legacy)"
+msgstr "Via ACF (héritage)"
+
+#: inc/functions-layout.php:705 inc/functions-admin.php:768
+msgid "titles"
+msgstr "les titres"
+
+#: inc/functions-layout.php:312 inc/functions-admin.php:843
+msgid "To browse"
+msgstr "À parcourir"
+
+#: inc/functions-layout.php:310 inc/functions-admin.php:841
+msgid "To discover"
+msgstr "À découvrir"
+
+#: inc/functions-layout.php:311 inc/functions-admin.php:842
+msgid "To explore"
+msgstr "À explorer"
+
+#: inc/functions-layout.php:308 inc/functions-admin.php:839
+msgid "To read"
+msgstr "À lire"
+
+#: inc/functions-layout.php:309 inc/functions-admin.php:840
+msgid "To see"
+msgstr "À voir"
+
+#: inc/functions-layout.php:110
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: inc/functions-admin.php:267
+msgid "Translations"
+msgstr "Traductions"
+
+#: inc/functions-layout.php:313 inc/functions-admin.php:844
+msgid "Trendy"
+msgstr "Tendance"
+
+#: inc/functions-admin.php:903
+msgid "Turnstile (Cloudflare)"
+msgstr "Turnstile (Cloudflare)"
+
+#: inc/functions-admin.php:733
+msgid "Under content"
+msgstr "Sous les contenus"
+
+#: inc/functions-layout.php:688
+#, php-format
+msgid "unfold %s"
+msgstr "déplier %s"
+
+#: inc/functions-admin.php:787
+msgid "Unsee"
+msgstr "Ne plus voir"
+
+#: inc/functions-layout.php:693
+#, php-format
+msgid "unsee %s"
+msgstr "ne plus voir %s"
+
+#: inc/functions-layout.php:848 inc/functions-admin.php:641
+msgid "Unveiled on"
+msgstr "Dévoilé le"
+
+#: inc/functions-layout.php:858 inc/functions-admin.php:676
+msgid "Updated on"
+msgstr "Mis à jour le"
+
+#: inc/functions-users.php:49
+msgid "Use as avatar"
+msgstr "Utiliser comme avatar"
+
+#: inc/functions-admin.php:945
+msgid "Using excerpts (better for performance)"
+msgstr "Via les extraits (plus performant)"
+
+#: inc/functions-layout.php:573
+msgctxt "verb"
+msgid "Pin"
+msgstr "Épingler"
+
+#: inc/functions-layout.php:561 inc/functions-layout.php:565
+#: inc/functions-layout.php:577
+msgctxt "verb"
+msgid "Post"
+msgstr "Publier"
+
+#: inc/functions-layout.php:597
+msgctxt "verb"
+msgid "Tweet"
+msgstr "Tweeter"
+
+#: inc/functions-admin.php:196
+msgid "Views count"
+msgstr "Compteur de vues"
+
+#: inc/functions-admin.php:789
+msgid "Visualize"
+msgstr "Visualiser"
+
+#: inc/functions-layout.php:687
+#, php-format
+msgid "visualize %s"
+msgstr "visualiser %s"
+
+#: inc/functions-admin.php:247
+msgid "Web performance"
+msgstr "Web performance"
+
+#: inc/functions-layout.php:805 inc/functions-admin.php:1080
+#, php-format
+msgid "Who is the author, %s?"
+msgstr "Qui est l’auteur, %s ?"
+
+#: inc/functions-seo.php:557 inc/functions-admin.php:1042
+#| msgid "Written on"
+msgid "Written by"
+msgstr "Écrit par"
+
+#: inc/functions-layout.php:113
+msgid "Yesterday"
+msgstr "Hier"
+
+#: inc/functions-layout.php:394 inc/functions-layout.php:517
+#: inc/functions-admin.php:869
+msgid "You will also like"
+msgstr "Vous aimerez aussi"
+
+#: functions.php:240
+msgid "Your vote has been recorded"
+msgstr "Votre vote a été enregistré"
+

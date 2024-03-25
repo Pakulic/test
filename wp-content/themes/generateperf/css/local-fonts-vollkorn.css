@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Vollkorn-fallback";
+    size-adjust: 108.31%;
+    ascent-override: 100%;
+    src: local("Times New Roman");
+}
+@font-face {
+  font-family: Vollkorn;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/vollkorn-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/vollkorn-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/vollkorn-variable.woff2') format("woff2-variations");
+}

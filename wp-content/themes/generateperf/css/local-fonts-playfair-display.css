@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Playfair Display-fallback";
+    size-adjust: 111.19999999999999%;
+    ascent-override: 90%;
+    src: local("Times New Roman");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/playfair-display-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/playfair-display-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/playfair-display-variable.woff2') format("woff2-variations");
+}

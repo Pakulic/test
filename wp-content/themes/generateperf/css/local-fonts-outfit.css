@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Outfit;
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/outfit-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/outfit-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/outfit-variable.woff2') format("woff2-variations");
+}

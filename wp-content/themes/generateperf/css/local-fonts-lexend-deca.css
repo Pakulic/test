@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Lexend Deca-fallback";
+    size-adjust: 110.1%;
+    ascent-override: 83%;
+    src: local("Arial");
+}
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 100 900;
+  font-display: swap;
+  src: /* url('../fonts/lexend-deca-variable.woff2') format(woff2) tech(variations), */
+  url('../fonts/lexend-deca-variable.woff2') format('woff2 supports variations'),
+  url('../fonts/lexend-deca-variable.woff2') format("woff2-variations");
+}
